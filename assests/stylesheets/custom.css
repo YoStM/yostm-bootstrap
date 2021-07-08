@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+#hero-banner {
+    position: relative;
+    padding: 19rem;
+}
+
+#hero-banner h1 {
+    position: relative;
+    z-index: 5;
+} 
+
+#hero-banner p {
+    position: relative;
+    z-index: 5;
+}
+
+.vh-cent {
+    height: 100vh;
+}
+
+.canard-blue{
+    background-color: #065978;
+    color: white;
+    padding: 3rem;
+}
+
+.canard-gray {
+    background-color: #32768E;
+    color: white;
+    padding: 3rem;
+}
+
+.canard-darker {
+    background-color: #033345;
+    color: white;
+    padding: 3rem;
+}
+
+.circle {
+    width: 11vh;
+    height: 11vh;
+    border-radius: 50%;
+}
+
+.bio {
+    padding: 15rem 11rem 15rem 11rem;
+    margin-bottom: -11rem;
+}
+
+.hobbies {
+    padding: 3.25rem;
+}
+
+.skills {
+    padding: 3.25rem;
+}
+
+.logo-lewys {
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+}
+
+@media screen and (max-width: 576px) {
+    .circle {
+        width: 15vh;
+        height: 15vh;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero-banner {
+        position: relative;
+        padding: 11rem 1.75rem 11rem 1.75rem;
+    }
+    .bio {
+        padding: 9rem 1.75rem 9rem 1.75rem;
+        margin-bottom: -7.5rem;
+    }
+    .hobbies {
+        padding: 1.75rem 0.5rem 1.75rem 0.5rem;
+    }
+    
+    .skills {
+        padding: 1.75rem 0.5rem 1.75rem 0.5rem;
+    }
+}
