@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Red+Hat+Display:wght@400;700&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Acme', sans-serif;
+}
+p {
+    font-family: 'Red Hat Display', sans-serif;
+}
 
 #hero-banner {
     position: relative;
@@ -8,7 +15,6 @@
 #hero-banner h1 {
     position: relative;
     z-index: 5;
-    font-family: 'Acme', sans-serif;
 } 
 
 #hero-banner p {
