@@ -22,6 +22,82 @@ body {
     z-index: 5;
 }
 
+#hero-banner a {
+    position: relative;
+    z-index: 5;
+    border: 1px solid #065978;
+    border-radius: 1.5rem;
+    color: #065978;
+    padding: 9px;
+}
+
+
+#hero-banner a:hover {
+    position: relative;
+    z-index: 5;
+    animation: animateMoreButton 1s infinite;
+}
+
+
+.vh-cent {
+    height: 100vh;
+}
+
+.canard-blue{
+    background-color: #065978;
+    color: white;
+    padding: 3rem;
+}
+
+.canard-gray {
+    background-color: #32768E;
+    color: white;
+    padding: 3rem;
+}
+
+.canard-darker {
+    background-color: #033345;
+    color: white;
+    padding: 3rem;
+}
+
+.circle {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+.bio {
+    padding: 15rem 11rem 15rem 11rem;
+    margin-bottom: -11rem;
+}
+
+.hobbies {
+    padding: 3.25rem;
+}
+
+.skills {
+    padding: 3.25rem;
+}
+
+.app-showcase {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-showcase .app-description {
+    position: absolute;
+}
+
+.logo-lewys {
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+}
+
+/* Bubbles hero-background */
 #bubbles {
     position: absolute;
     top: 0;
@@ -119,6 +195,7 @@ body {
     animation-duration: 11s;
 }
 
+/* Animations */
 @keyframes animate {
 
     0%{
@@ -134,65 +211,32 @@ body {
 
 }
 
+@keyframes animateMoreButton {
 
-.vh-cent {
-    height: 100vh;
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+        border-radius: 0.25rem;
+    }
+    25%{
+        transform: rotate(-18deg);
+        opacity: 1;
+        border-radius: 0.75rem;
+    }
+    50%{
+        transform: rotate(18deg);
+        opacity: 1;
+        border-radius: 1.25rem;
+    }
+    100%{
+        transform: rotate(0deg);
+        opacity: 1;
+        border-radius: 1.5rem;
+    }
+
 }
 
-.canard-blue{
-    background-color: #065978;
-    color: white;
-    padding: 3rem;
-}
-
-.canard-gray {
-    background-color: #32768E;
-    color: white;
-    padding: 3rem;
-}
-
-.canard-darker {
-    background-color: #033345;
-    color: white;
-    padding: 3rem;
-}
-
-.circle {
-    width: 15vh;
-    height: 15vh;
-    border-radius: 50%;
-}
-
-.bio {
-    padding: 15rem 11rem 15rem 11rem;
-    margin-bottom: -11rem;
-}
-
-.hobbies {
-    padding: 3.25rem;
-}
-
-.skills {
-    padding: 3.25rem;
-}
-
-.app-showcase {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.app-showcase .app-description {
-    position: absolute;
-}
-
-.logo-lewys {
-    height: 100%;
-    width: 100%;
-    border-radius: 3%;
-}
-
+/* Media queries */
 @media screen and (max-width: 576px) {
     .circle {
         width: 15vh;
