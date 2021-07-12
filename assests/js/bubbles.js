@@ -46,36 +46,6 @@ function addInlineFormating(bubble_index, color_index) {
     bubbles[bubble_index].setAttribute('style', 'border-color: ' + colors[color_index] + '; ' + 'background: ' + colors[color_index] + ';');
 }
 
-// function resetInlineFormating() {
-//     for (let i = 0; i < bubbles.length; i++) {
-//         if (bubbles[i].hasAttribute('style')) {
-//             deleteInlineFormating(i);
-//         }
-//     }
-// }
-
-// 1: 12s & 2s delay, 
-// 2: 19s & 4s delay,
-// 4: 19s & 0s delay,
-// 7: 45s & 15s delay, 
-// 8: 35s & 2s delay
-// function setRandom_bubbleIndexes() {
-//     let random_indexes = [];
-//     bubble_index = bubbles[Math.floor(Math.random() * bubbles.length)];
-//     if (bubble_index === bubbles[0]) {
-//         random_indexes = [0, 3, 4, 8, 9];
-//     } else if (bubble_index <= 5) {
-//         random_indexes = [1, 2, 5, 6, 7];
-//     } else {
-//         random_indexes = [2, 3, 5, 6, 9];
-//     }
-//     return random_indexes;
-// }
-// function setBubbleIndexes() {
-//     const bubble_indexes = [1, 2, 4, 7, 8];
-//     return bubble_indexes;
-// }
-
 function setRandom_colorIndexes() {
     let random_indexes = [];
     color_index = Math.floor(Math.random() * colors.length);
@@ -111,7 +81,5 @@ function setRandom_colorIndexes() {
             random_indexes = [0, 2, 6, 3, 9];
             break;
     }
-    console.log(color_index);
-    console.log(random_indexes);
     return random_indexes;
 }
