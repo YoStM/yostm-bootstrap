@@ -158,8 +158,8 @@ body {
 }
 
 .circle {
-    width: 11vh;
-    height: 11vh;
+    width: 15vh;
+    height: 15vh;
     border-radius: 50%;
 }
 
@@ -186,56 +186,6 @@ body {
 .app-showcase .app-description {
     position: absolute;
 }
-
-/* .showcase-app {
-    background: #033345;
-    position: relative;
-    width: 30vh;
-    height: 30vh;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    transition: box-shadow 0.37s, transform 0.37s;
-    overflow: hidden;
-}
-
-.showcase-app div {
-    color: white;
-    position: relative;
-    z-index: 5;
-}
-
-.showcase-app:hover {
-    width: 30vh;
-    height: 30vh;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    transform: translate(3px, -7px);
-    box-shadow: -6px 9px #dee2e6;
-}
-
-.showcase-app img {
-    opacity: 0.55;
-    width: auto;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-.showcase-app svg {
-    opacity: 0.55;
-    width: auto;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-} */
 
 .logo-lewys {
     height: 100%;

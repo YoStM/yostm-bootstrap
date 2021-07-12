@@ -14,7 +14,7 @@ const colors = [
 
 setFirstBubbleColor();
 
-setInterval(changeBubbleColor, 29000);
+setInterval(changeBubbleColor, 4000);
 
 function setFirstBubbleColor() {
     var bubble_indexes = [1, 2, 4, 7, 8];
