@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Red+Hat+Display:wght@400;700&display=swap');
 
-h1, h2, h3, h4, h5, a {
+h1, h2, h3, h4, h5, a, small {
     font-family: 'Acme', sans-serif;
 }
 body {
@@ -73,20 +73,24 @@ body {
 
 .bio {
     padding: 15rem 11rem 15rem 11rem;
-    margin-bottom: -11rem;
+    margin-bottom: -15rem;
 }
 
 .hobbies {
-    padding: 3.25rem;
+    padding: 5rem;
 }
 
 .skills {
-    padding: 3.25rem;
+    padding: 5rem;
+}
+
+.symfony {
+    margin-bottom: -1rem;
 }
 
 .portfolio {
     padding: 15rem 0 11rem 0;
-    margin-top: -11rem;
+    margin-top: -19rem;
 }
 
 .footer {
