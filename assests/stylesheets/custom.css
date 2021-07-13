@@ -85,7 +85,8 @@ body {
 }
 
 .symfony {
-    margin-bottom: -1rem;
+    padding-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .portfolio {
