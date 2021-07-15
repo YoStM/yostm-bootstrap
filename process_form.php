@@ -65,14 +65,13 @@ if (isset($_POST['submit'])) {
     </html>
     ";
 
-    try {
-        // Send Email
-        $mail->send();
+    // Send Email
+    if ($mail->send()) {
         header("Location: index.html");
         echo "<script>
         alert('Votre email a bien été envoyé à Yohan ! Merci.');
     </script>";
-    } catch (Exception $e) {
+    } else {
         echo "<script>
             alert('Une erreur est survenue lors de l'envoi de votre email.<br />
             Merci de recommencer.');
