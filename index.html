@@ -326,20 +326,20 @@
                     sur mon parcours et mes ambitions</p>
             </div>
 
-            <form action="process_form.php" method="POST" class="px-auto container">
+            <form action="#" method="POST" class="px-auto container">
                 <div class="mx-auto mb-3 col-lg-6 col-md-10 col-sm-12 d-flex justify-content-md-between">
                     <div class="col-md-5 col-sm-6">
                         <label for="name" class="form-label">Votre nom :</label>
-                        <input type="text" name="name" id="name" class="form-control" />
+                        <input type="text" name="name" id="name" class="form-control" required />
                     </div>
                     <div class="col-md-5 col-sm-6">
                         <label for="email" class="form-label">Votre adresse eMail :</label>
-                        <input type="email" name="email" id="email" class="form-control" />
+                        <input type="email" name="email" id="email" class="form-control" required />
                     </div>
                 </div>
                 <div class="mx-auto mb-3 col-lg-6 col-md-10 col-sm-12">
                     <label for="message" class="form-label">Votre message :</label>
-                    <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                    <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
                 </div>
                 <div class="mx-auto col-6 d-flex justify-content-center">
                     <input type="submit" name="submit" class="btn btn-lg btn-success" value="Envoyer" />
