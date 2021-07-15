@@ -68,7 +68,7 @@ if (isset($_POST['submit'])) {
     try {
         // Send Email
         $mail->send();
-
+        header("Location: index.html");
         echo "<script>
         alert('Votre email a bien été envoyé à Yohan ! Merci.');
     </script>";
