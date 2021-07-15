@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
     $mail->isSMTP();
     $mail->Host = "yohan-saint-martin.fr";
     $mail->SMTPAuth = true;
-    $mail->Port = 993;
+    $mail->Port = 143;
     $mail->Username = "contact@yohan-saint-martin.fr";
     $mail->Password = "gibson333";
 
@@ -67,7 +67,7 @@ if (isset($_POST['submit'])) {
 
     // Send Email
     if ($mail->send()) {
-        header("Location: index.html");
+        header("Location: ./index.php");
         echo "<script>
         alert('Votre email a bien été envoyé à Yohan ! Merci.');
     </script>";
